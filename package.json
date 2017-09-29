@@ -1,6 +1,6 @@
 {
   "name": "qq-group-mamage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage QQ group (also called QQ qun) via nodejs.",
   "main": "qqgroup.js",
   "scripts": {
