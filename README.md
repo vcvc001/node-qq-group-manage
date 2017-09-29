@@ -9,6 +9,9 @@ Manage QQ group (also called QQ qun) via nodejs. With promise supported.
 
 ## 用法 / Useage
 
+返回的 error 有两种，一种是来自 QQ 服务器的错误，有前缀 ```[Remote Error]```，其他的为程序运行时的错误。  
+建议从 qun.qq.com 或者 qq.com 中获取 cookies，需要获取来自 qq.com 域下的 cookies，而不是子域名下的 cookies。
+
 1. 引入包 :
 
   ```javascript
