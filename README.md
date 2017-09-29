@@ -3,6 +3,10 @@
 QQ 群管理 nodejs 版，支持 promise。  
 Manage QQ group (also called QQ qun) via nodejs. With promise supported.
 
+## UPDATE
+
+20170929 修复上一版无法使用的错误，增加依赖包。
+
 ## 用法 / Useage
 
 1. 引入包 :
@@ -15,8 +19,9 @@ Manage QQ group (also called QQ qun) via nodejs. With promise supported.
 
   ```javascript
   var group = new Group;
-  group.config(cookie);
+  group.config(cookies);
   ```
+  cookies 为从 qq.com 获取到的 cookies 数据
 
 3. 内置方法 :
 

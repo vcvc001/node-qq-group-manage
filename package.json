@@ -1,6 +1,6 @@
 {
   "name": "qq-group-mamage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage QQ group (also called QQ qun) via nodejs.",
   "main": "qqgroup.js",
   "scripts": {
@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/powacug/node-qq-group-manage/issues"
   },
-  "homepage": "https://github.com/powacug/node-qq-group-manage#readme"
+  "homepage": "https://github.com/powacug/node-qq-group-manage#readme",
+  "dependencies": {
+    "html-entities": "^1.2.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
 }
